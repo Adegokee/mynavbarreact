@@ -1,0 +1,19 @@
+button{
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    font-size:15px; 
+ 
+}
+button:hover{
+    background-color: red;
+    color: white;
+
+}
+
+@media (max-width: 960px){
+    button{
+        display: none;
+    }
+}
